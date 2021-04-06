@@ -34,6 +34,7 @@ function getNewApartments(){
     apartmentsIds=apartments.map(element=>element.AnnonsId)
     newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
     if(!_.isEmpty(newApartmentIds)){
+        console.log(newApartmentIds)
         newApartmentIds.forEach((id)=>{
             newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
         })
