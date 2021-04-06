@@ -45,7 +45,7 @@ const options = {
         fs.writeFileSync('current.json',JSON.stringify({apartments:newestAparmentList.concat(storedApartments)},0,2))
         
     }
-
+console.log('yes i run every 15 mins')
 
    
 }).catch((err)=>{
