@@ -1,19 +1,19 @@
 {
   "apartments": [
     {
-      "AnnonsId": 173303,
-      "Stadsdel": "Fruängen",
-      "Gatuadress": "Vantörsvägen 239",
+      "AnnonsId": 12345,
+      "Stadsdel": "Hökarängen",
+      "Gatuadress": "Saltvägen 11",
       "Kommun": "Stockholm",
-      "Vaning": 0,
-      "AntalRum": 3,
-      "Yta": 74,
-      "Hyra": 9228,
-      "AnnonseradTill": "2020-09-22",
-      "AnnonseradFran": "2020-09-19",
-      "KoordinatLongitud": 17.958159063963947,
-      "KoordinatLatitud": 59.283393386928914,
-      "Url": "/Lista/Details?aid=173303",
+      "Vaning": 2,
+      "AntalRum": 2,
+      "Yta": 38,
+      "Hyra": 8777,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.086307048797607,
+      "KoordinatLatitud": 59.25438627155748,
+      "Url": "/Lista/Details?aid=12345",
       "Antal": 1,
       "Balkong": true,
       "Hiss": true,
@@ -35,7 +35,325 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 26,
+          "Id": 44,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 14
+      }
+    },
+    {
+      "AnnonsId": 182442,
+      "Stadsdel": "Enskede Gård",
+      "Gatuadress": "Skjulvägen 12",
+      "Kommun": "Stockholm",
+      "Vaning": 0,
+      "AntalRum": 2,
+      "Yta": 44,
+      "Hyra": 5304,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.072003863896573,
+      "KoordinatLatitud": 59.289768211772945,
+      "Url": "/Lista/Details?aid=182442",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 17,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 2,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 13,
+        "KotidFordelningQ3": 16
+      }
+    },
+    {
+      "AnnonsId": 182438,
+      "Stadsdel": "Farsta Strand",
+      "Gatuadress": "Nordmarksvägen 23",
+      "Kommun": "Stockholm",
+      "Vaning": 1,
+      "AntalRum": 2,
+      "Yta": 47,
+      "Hyra": 5285,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.106932034064542,
+      "KoordinatLatitud": 59.235382874284234,
+      "Url": "/Lista/Details?aid=182438",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 22,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 14
+      }
+    },
+    {
+      "AnnonsId": 182477,
+      "Stadsdel": "Gröndal",
+      "Gatuadress": "Gröndalsvägen 128A",
+      "Kommun": "Stockholm",
+      "Vaning": 2,
+      "AntalRum": 1,
+      "Yta": 26,
+      "Hyra": 7013,
+      "AnnonseradTill": "2021-04-09",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.9968392848969,
+      "KoordinatLatitud": 59.3149074069154,
+      "Url": "/Lista/Details?aid=182477",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 30,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 2,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 5,
+        "KotidFordelningQ3": 8
+      }
+    },
+    {
+      "AnnonsId": 182388,
+      "Stadsdel": "Husby",
+      "Gatuadress": "Oslogatan 24",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.923837878730993,
+      "KoordinatLatitud": 59.408240933443864,
+      "Url": "/Lista/Details?aid=182388",
+      "Antal": 4,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 36,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 9,
+        "KotidFordelningQ3": 11
+      }
+    },
+    {
+      "AnnonsId": 182387,
+      "Stadsdel": "Husby",
+      "Gatuadress": "Oslogatan 24",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.923837878730993,
+      "KoordinatLatitud": 59.408240933443864,
+      "Url": "/Lista/Details?aid=182387",
+      "Antal": 3,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 36,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 10,
+        "KotidFordelningQ3": 12
+      }
+    },
+    {
+      "AnnonsId": 182391,
+      "Stadsdel": "Hägerstensåsen",
+      "Gatuadress": "Inteckningsvägen 106",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-12",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.97984480857849,
+      "KoordinatLatitud": 59.29465982206469,
+      "Url": "/Lista/Details?aid=182391",
+      "Antal": 14,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 38,
           "PlatsTyp": 2
         },
         {
@@ -49,24 +367,130 @@
       ],
       "ArInloggad": false,
       "LiknadeLagenhetStatistik": {
-        "KotidFordelningQ1": 9,
-        "KotidFordelningQ3": 14
+        "KotidFordelningQ1": 10,
+        "KotidFordelningQ3": 11
       }
     },
     {
-      "AnnonsId": 173298,
-      "Stadsdel": "Högdalen",
-      "Gatuadress": "Skebokvarnsvägen 311",
+      "AnnonsId": 182390,
+      "Stadsdel": "Hägerstensåsen",
+      "Gatuadress": "Inteckningsvägen 106",
       "Kommun": "Stockholm",
-      "Vaning": 1,
+      "Vaning": null,
       "AntalRum": 3,
-      "Yta": 72,
-      "Hyra": 7006,
-      "AnnonseradTill": "2020-09-22",
-      "AnnonseradFran": "2020-09-19",
-      "KoordinatLongitud": 18.0376265387582,
-      "KoordinatLatitud": 59.263090048778864,
-      "Url": "/Lista/Details?aid=173298",
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-12",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.97984480857849,
+      "KoordinatLatitud": 59.29465982206469,
+      "Url": "/Lista/Details?aid=182390",
+      "Antal": 7,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 38,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 5,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 13
+      }
+    },
+    {
+      "AnnonsId": 182389,
+      "Stadsdel": "Hägerstensåsen",
+      "Gatuadress": "Inteckningsvägen 106",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 4,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-12",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.97984480857849,
+      "KoordinatLatitud": 59.29465982206469,
+      "Url": "/Lista/Details?aid=182389",
+      "Antal": 8,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 38,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 5,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 15
+      }
+    },
+    {
+      "AnnonsId": 182421,
+      "Stadsdel": "Hökarängen",
+      "Gatuadress": "Saltvägen 11",
+      "Kommun": "Stockholm",
+      "Vaning": 2,
+      "AntalRum": 2,
+      "Yta": 38,
+      "Hyra": 8777,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.086307048797607,
+      "KoordinatLatitud": 59.25438627155748,
+      "Url": "/Lista/Details?aid=182421",
       "Antal": 1,
       "Balkong": true,
       "Hiss": true,
@@ -88,7 +512,416 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 42,
+          "Id": 44,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 14
+      }
+    },
+    {
+      "AnnonsId": 182471,
+      "Stadsdel": "Hökarängen",
+      "Gatuadress": "Muskotvägen 3",
+      "Kommun": "Stockholm",
+      "Vaning": 0,
+      "AntalRum": 2,
+      "Yta": 56,
+      "Hyra": 7080,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.08671844465025,
+      "KoordinatLatitud": 59.25259443137745,
+      "Url": "/Lista/Details?aid=182471",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": true,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Korttidskontrakt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 44,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 14
+      }
+    },
+    {
+      "AnnonsId": 181368,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Kista Gårdsväg 4",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 1,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.944832,
+      "KoordinatLatitud": 59.407658,
+      "Url": "/Lista/Details?aid=181368",
+      "Antal": 32,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182332,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Kista Gårdsväg 4",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.944832,
+      "KoordinatLatitud": 59.407658,
+      "Url": "/Lista/Details?aid=182332",
+      "Antal": 41,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182336,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Kista Gårdsväg 4",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.944832,
+      "KoordinatLatitud": 59.407658,
+      "Url": "/Lista/Details?aid=182336",
+      "Antal": 10,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182337,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Kista Alléväg 7",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 4,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.944326,
+      "KoordinatLatitud": 59.407753,
+      "Url": "/Lista/Details?aid=182337",
+      "Antal": 6,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182335,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Kista Gårdsväg 4",
+      "Kommun": "Stockholm",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.944832,
+      "KoordinatLatitud": 59.407658,
+      "Url": "/Lista/Details?aid=182335",
+      "Antal": 41,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182448,
+      "Stadsdel": "Kista",
+      "Gatuadress": "Hanstavägen 51",
+      "Kommun": "Stockholm",
+      "Vaning": 9,
+      "AntalRum": 1,
+      "Yta": 24,
+      "Hyra": 4808,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.94389350223565,
+      "KoordinatLatitud": 59.40423238333237,
+      "Url": "/Lista/Details?aid=182448",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 46,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 7,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 2,
+        "KotidFordelningQ3": 6
+      }
+    },
+    {
+      "AnnonsId": 182431,
+      "Stadsdel": "Kärrtorp",
+      "Gatuadress": "Vikstensvägen 22",
+      "Kommun": "Stockholm",
+      "Vaning": 2,
+      "AntalRum": 4,
+      "Yta": 93,
+      "Hyra": 15143,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.1185440246588,
+      "KoordinatLatitud": 59.2841815259211,
+      "Url": "/Lista/Details?aid=182431",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 50,
           "PlatsTyp": 2
         },
         {
@@ -103,23 +936,76 @@
       "ArInloggad": false,
       "LiknadeLagenhetStatistik": {
         "KotidFordelningQ1": 12,
-        "KotidFordelningQ3": 15
+        "KotidFordelningQ3": 17
       }
     },
     {
-      "AnnonsId": 173314,
+      "AnnonsId": 182468,
       "Stadsdel": "Liljeholmen",
-      "Gatuadress": "Blekegatan 2",
+      "Gatuadress": "Förmansvägen 4",
       "Kommun": "Stockholm",
-      "Vaning": 5,
+      "Vaning": 6,
+      "AntalRum": 2,
+      "Yta": 48,
+      "Hyra": 10068,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.024192440819593,
+      "KoordinatLatitud": 59.305982848829984,
+      "Url": "/Lista/Details?aid=182468",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 53,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 2,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 13,
+        "KotidFordelningQ3": 16
+      }
+    },
+    {
+      "AnnonsId": 182467,
+      "Stadsdel": "Liljeholmen",
+      "Gatuadress": "Förmansvägen 2",
+      "Kommun": "Stockholm",
+      "Vaning": 6,
       "AntalRum": 3,
-      "Yta": 76,
-      "Hyra": 11601,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 18.026281636328438,
-      "KoordinatLatitud": 59.30678237542867,
-      "Url": "/Lista/Details?aid=173314",
+      "Yta": 85,
+      "Hyra": 14990,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.02392990205401,
+      "KoordinatLatitud": 59.305996299316426,
+      "Url": "/Lista/Details?aid=182467",
       "Antal": 1,
       "Balkong": true,
       "Hiss": true,
@@ -156,23 +1042,182 @@
       "ArInloggad": false,
       "LiknadeLagenhetStatistik": {
         "KotidFordelningQ1": 14,
-        "KotidFordelningQ3": 18
+        "KotidFordelningQ3": 19
       }
     },
     {
-      "AnnonsId": 173332,
-      "Stadsdel": "Södermalm",
-      "Gatuadress": "Ölandsgatan 51C",
+      "AnnonsId": 182433,
+      "Stadsdel": "Rinkeby",
+      "Gatuadress": "Hinderstorps Gränd 43",
       "Kommun": "Stockholm",
       "Vaning": 3,
       "AntalRum": 3,
-      "Yta": 65,
-      "Hyra": 6815,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 18.078174546171347,
-      "KoordinatLatitud": 59.309129242797795,
-      "Url": "/Lista/Details?aid=173332",
+      "Yta": 79,
+      "Hyra": 8310,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.929930500532688,
+      "KoordinatLatitud": 59.38936596468363,
+      "Url": "/Lista/Details?aid=182433",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 74,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 6,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 10,
+        "KotidFordelningQ3": 12
+      }
+    },
+    {
+      "AnnonsId": 182459,
+      "Stadsdel": "Rågsved",
+      "Gatuadress": "Vallhornsgatan 27",
+      "Kommun": "Stockholm",
+      "Vaning": 2,
+      "AntalRum": 2,
+      "Yta": 59,
+      "Hyra": 6723,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.031217664315818,
+      "KoordinatLatitud": 59.25571954905644,
+      "Url": "/Lista/Details?aid=182459",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 76,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 11,
+        "KotidFordelningQ3": 14
+      }
+    },
+    {
+      "AnnonsId": 182465,
+      "Stadsdel": "Södermalm",
+      "Gatuadress": "Brännkyrkagatan 114",
+      "Kommun": "Stockholm",
+      "Vaning": 3,
+      "AntalRum": 2,
+      "Yta": 46,
+      "Hyra": 7533,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.04454045940631,
+      "KoordinatLatitud": 59.31765875622731,
+      "Url": "/Lista/Details?aid=182465",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 92,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 1,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 13,
+        "KotidFordelningQ3": 21
+      }
+    },
+    {
+      "AnnonsId": 182473,
+      "Stadsdel": "Södermalm",
+      "Gatuadress": "Bastugatan 3",
+      "Kommun": "Stockholm",
+      "Vaning": 0,
+      "AntalRum": 2,
+      "Yta": 45,
+      "Hyra": 7172,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.066571522889856,
+      "KoordinatLatitud": 59.32033151530962,
+      "Url": "/Lista/Details?aid=182473",
       "Antal": 1,
       "Balkong": false,
       "Hiss": false,
@@ -208,37 +1253,37 @@
       ],
       "ArInloggad": false,
       "LiknadeLagenhetStatistik": {
-        "KotidFordelningQ1": 12,
-        "KotidFordelningQ3": 26
+        "KotidFordelningQ1": 13,
+        "KotidFordelningQ3": 21
       }
     },
     {
-      "AnnonsId": 173334,
-      "Stadsdel": "Vårberg",
-      "Gatuadress": "Storholmsbackarna 32",
+      "AnnonsId": 182445,
+      "Stadsdel": "Södra Hammarbyhamnen",
+      "Gatuadress": "Hammarby Allé 179",
       "Kommun": "Stockholm",
       "Vaning": 2,
-      "AntalRum": 3,
-      "Yta": 85,
-      "Hyra": 7395,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.89302277586361,
-      "KoordinatLatitud": 59.27458529874224,
-      "Url": "/Lista/Details?aid=173334",
+      "AntalRum": 1,
+      "Yta": 26,
+      "Hyra": 5536,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.104483876630304,
+      "KoordinatLatitud": 59.30184282447067,
+      "Url": "/Lista/Details?aid=182445",
       "Antal": 1,
-      "Balkong": true,
-      "Hiss": false,
+      "Balkong": false,
+      "Hiss": true,
       "Nyproduktion": false,
       "Ungdom": false,
-      "Student": false,
+      "Student": true,
       "Senior": false,
-      "Korttid": true,
+      "Korttid": false,
       "Vanlig": false,
       "Bostadssnabben": false,
       "Ko": "Bostadskön",
       "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Korttidskontrakt",
+      "Lagenhetstyp": "Studentlägenhet",
       "HarAnmaltIntresse": false,
       "KanAnmalaIntresse": false,
       "HarBraChans": false,
@@ -247,11 +1292,11 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 105,
+          "Id": 93,
           "PlatsTyp": 2
         },
         {
-          "Id": 5,
+          "Id": 2,
           "PlatsTyp": 1
         },
         {
@@ -261,28 +1306,28 @@
       ],
       "ArInloggad": false,
       "LiknadeLagenhetStatistik": {
-        "KotidFordelningQ1": 9,
-        "KotidFordelningQ3": 13
+        "KotidFordelningQ1": 5,
+        "KotidFordelningQ3": 8
       }
     },
     {
-      "AnnonsId": 173201,
-      "Stadsdel": "Orminge",
-      "Gatuadress": "Edövägen 13",
-      "Kommun": "Nacka",
-      "Vaning": null,
+      "AnnonsId": 182436,
+      "Stadsdel": "Tallkrogen",
+      "Gatuadress": "Hägervägen 84",
+      "Kommun": "Stockholm",
+      "Vaning": 0,
       "AntalRum": 3,
-      "Yta": null,
-      "Hyra": null,
-      "AnnonseradTill": "2020-09-27",
-      "AnnonseradFran": "2020-09-16",
-      "KoordinatLongitud": 18.254599571228,
-      "KoordinatLatitud": 59.3276620686552,
-      "Url": "/Lista/Details?aid=173201",
-      "Antal": 18,
+      "Yta": 67,
+      "Hyra": 6674,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.082308992869212,
+      "KoordinatLatitud": 59.27244565031342,
+      "Url": "/Lista/Details?aid=182436",
+      "Antal": 1,
       "Balkong": true,
-      "Hiss": true,
-      "Nyproduktion": true,
+      "Hiss": false,
+      "Nyproduktion": false,
       "Ungdom": false,
       "Student": false,
       "Senior": false,
@@ -300,7 +1345,681 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 324,
+          "Id": 95,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 12,
+        "KotidFordelningQ3": 15
+      }
+    },
+    {
+      "AnnonsId": 182405,
+      "Stadsdel": "Tensta",
+      "Gatuadress": "Tenstagången 55",
+      "Kommun": "Stockholm",
+      "Vaning": 1,
+      "AntalRum": 1,
+      "Yta": 22,
+      "Hyra": 4811,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.9007855352671,
+      "KoordinatLatitud": 59.3946051915179,
+      "Url": "/Lista/Details?aid=182405",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 96,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 6,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 1,
+        "KotidFordelningQ3": 3
+      }
+    },
+    {
+      "AnnonsId": 182289,
+      "Stadsdel": "Tensta",
+      "Gatuadress": "Tenstagången 55",
+      "Kommun": "Stockholm",
+      "Vaning": 2,
+      "AntalRum": 1,
+      "Yta": 22,
+      "Hyra": 4811,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.9007855352671,
+      "KoordinatLatitud": 59.3946051915179,
+      "Url": "/Lista/Details?aid=182289",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 96,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 6,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 1,
+        "KotidFordelningQ3": 3
+      }
+    },
+    {
+      "AnnonsId": 182484,
+      "Stadsdel": "Tensta",
+      "Gatuadress": "Hidinge Backe 3",
+      "Kommun": "Stockholm",
+      "Vaning": 1,
+      "AntalRum": 2,
+      "Yta": 58,
+      "Hyra": 6938,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.89300958182525,
+      "KoordinatLatitud": 59.396992582446096,
+      "Url": "/Lista/Details?aid=182484",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 96,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 6,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 8,
+        "KotidFordelningQ3": 11
+      }
+    },
+    {
+      "AnnonsId": 182485,
+      "Stadsdel": "Tensta",
+      "Gatuadress": "Hjulsta Backar 27",
+      "Kommun": "Stockholm",
+      "Vaning": 8,
+      "AntalRum": 2,
+      "Yta": 59,
+      "Hyra": 8114,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.886313268194773,
+      "KoordinatLatitud": 59.39805131368336,
+      "Url": "/Lista/Details?aid=182485",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 96,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 6,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 8,
+        "KotidFordelningQ3": 11
+      }
+    },
+    {
+      "AnnonsId": 182482,
+      "Stadsdel": "Västberga",
+      "Gatuadress": "Mikrofonvägen 13",
+      "Kommun": "Stockholm",
+      "Vaning": 4,
+      "AntalRum": 2,
+      "Yta": 64,
+      "Hyra": 10295,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.998766561349502,
+      "KoordinatLatitud": 59.29728995248114,
+      "Url": "/Lista/Details?aid=182482",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 103,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 5,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 10,
+        "KotidFordelningQ3": 13
+      }
+    },
+    {
+      "AnnonsId": 182469,
+      "Stadsdel": "Västertorp",
+      "Gatuadress": "Isgränd 2",
+      "Kommun": "Stockholm",
+      "Vaning": 1,
+      "AntalRum": 2,
+      "Yta": 55,
+      "Hyra": 5534,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.96879255705618,
+      "KoordinatLatitud": 59.29111928953061,
+      "Url": "/Lista/Details?aid=182469",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 104,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 5,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 10,
+        "KotidFordelningQ3": 13
+      }
+    },
+    {
+      "AnnonsId": 182401,
+      "Stadsdel": "Älvsjö",
+      "Gatuadress": "Glasfibergatan 4",
+      "Kommun": "Stockholm",
+      "Vaning": 0,
+      "AntalRum": 1,
+      "Yta": 29,
+      "Hyra": 6128,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.002382,
+      "KoordinatLatitud": 59.28148,
+      "Url": "/Lista/Details?aid=182401",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 106,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 4,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 206,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": {
+        "KotidFordelningQ1": 4,
+        "KotidFordelningQ3": 7
+      }
+    },
+    {
+      "AnnonsId": 182338,
+      "Stadsdel": "Flemingsberg",
+      "Gatuadress": "Röntgenvägen 5",
+      "Kommun": "Huddinge",
+      "Vaning": 5,
+      "AntalRum": 1,
+      "Yta": 28,
+      "Hyra": 4230,
+      "AnnonseradTill": "2021-04-08",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.937958782410504,
+      "KoordinatLatitud": 59.22358025355897,
+      "Url": "/Lista/Details?aid=182338",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 306,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 76,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182375,
+      "Stadsdel": "Flemingsberg",
+      "Gatuadress": "Röntgenvägen 5",
+      "Kommun": "Huddinge",
+      "Vaning": 3,
+      "AntalRum": 1,
+      "Yta": 32,
+      "Hyra": 4603,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.937958782410504,
+      "KoordinatLatitud": 59.22358025355897,
+      "Url": "/Lista/Details?aid=182375",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 306,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 76,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182476,
+      "Stadsdel": "Flemingsberg",
+      "Gatuadress": "Visättravägen 30",
+      "Kommun": "Huddinge",
+      "Vaning": 3,
+      "AntalRum": 1,
+      "Yta": 24,
+      "Hyra": 4166,
+      "AnnonseradTill": "2021-04-09",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.951069629485968,
+      "KoordinatLatitud": 59.216998068119786,
+      "Url": "/Lista/Details?aid=182476",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 306,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 76,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182479,
+      "Stadsdel": "Flemingsberg",
+      "Gatuadress": "Björnkullaringen 26",
+      "Kommun": "Huddinge",
+      "Vaning": 0,
+      "AntalRum": 1,
+      "Yta": 27,
+      "Hyra": 3879,
+      "AnnonseradTill": "2021-04-09",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.936717874199815,
+      "KoordinatLatitud": 59.212106631832924,
+      "Url": "/Lista/Details?aid=182479",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentkorridor",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 306,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 76,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182417,
+      "Stadsdel": "Söderhöjden",
+      "Gatuadress": "Vasavägen 4",
+      "Kommun": "Järfälla",
+      "Vaning": 4,
+      "AntalRum": 2,
+      "Yta": 62,
+      "Hyra": 6579,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.83507328422607,
+      "KoordinatLatitud": 59.42128800121249,
+      "Url": "/Lista/Details?aid=182417",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 313,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 92,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182488,
+      "Stadsdel": "Fisksätra",
+      "Gatuadress": "Laxgatan 3",
+      "Kommun": "Nacka",
+      "Vaning": 5,
+      "AntalRum": 2,
+      "Yta": 63,
+      "Hyra": 8926,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.251393066279846,
+      "KoordinatLatitud": 59.290896060220426,
+      "Url": "/Lista/Details?aid=182488",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 322,
           "PlatsTyp": 2
         },
         {
@@ -316,22 +2035,22 @@
       "LiknadeLagenhetStatistik": null
     },
     {
-      "AnnonsId": 173367,
+      "AnnonsId": 182460,
       "Stadsdel": "Finntorp",
-      "Gatuadress": "Furuvägen 1",
+      "Gatuadress": "Tallidsvägen 12C",
       "Kommun": "Nacka",
-      "Vaning": 0,
+      "Vaning": 2,
       "AntalRum": 3,
-      "Yta": 87,
-      "Hyra": 12819,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 18.1419134906032,
-      "KoordinatLatitud": 59.30839690961307,
-      "Url": "/Lista/Details?aid=173367",
+      "Yta": 80,
+      "Hyra": 10053,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.13764859187289,
+      "KoordinatLatitud": 59.30972156366506,
+      "Url": "/Lista/Details?aid=182460",
       "Antal": 1,
       "Balkong": true,
-      "Hiss": true,
+      "Hiss": false,
       "Nyproduktion": false,
       "Ungdom": false,
       "Student": false,
@@ -366,221 +2085,71 @@
       "LiknadeLagenhetStatistik": null
     },
     {
-      "AnnonsId": 173349,
-      "Stadsdel": "Vallentuna C",
-      "Gatuadress": "Fornminnesvägen 5",
-      "Kommun": "Vallentuna",
-      "Vaning": 2,
-      "AntalRum": 3,
-      "Yta": 81,
-      "Hyra": 8453,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 18.075614510136262,
-      "KoordinatLatitud": 59.53738681524753,
-      "Url": "/Lista/Details?aid=173349",
-      "Antal": 1,
-      "Balkong": true,
-      "Hiss": false,
-      "Nyproduktion": false,
-      "Ungdom": false,
-      "Student": false,
-      "Senior": false,
-      "Korttid": false,
-      "Vanlig": true,
-      "Bostadssnabben": false,
-      "Ko": "Bostadskön",
-      "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Hyresrätt",
-      "HarAnmaltIntresse": false,
-      "KanAnmalaIntresse": false,
-      "HarBraChans": false,
-      "HarInternko": false,
-      "Internko": false,
-      "Externko": false,
-      "Omraden": [
-        {
-          "Id": 373,
-          "PlatsTyp": 2
-        },
-        {
-          "Id": 8,
-          "PlatsTyp": 1
-        },
-        {
-          "Id": 255,
-          "PlatsTyp": 0
-        }
-      ],
-      "ArInloggad": false,
-      "LiknadeLagenhetStatistik": null
-    },
-    {
-      "AnnonsId": 173355,
-      "Stadsdel": "Ronna",
-      "Gatuadress": "Utmarksvägen 3",
-      "Kommun": "Södertälje",
-      "Vaning": 7,
-      "AntalRum": 3,
-      "Yta": 79,
-      "Hyra": 9601,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.596103500837707,
-      "KoordinatLatitud": 59.20673620685717,
-      "Url": "/Lista/Details?aid=173355",
-      "Antal": 1,
-      "Balkong": true,
-      "Hiss": true,
-      "Nyproduktion": false,
-      "Ungdom": false,
-      "Student": false,
-      "Senior": false,
-      "Korttid": false,
-      "Vanlig": true,
-      "Bostadssnabben": false,
-      "Ko": "Bostadskön",
-      "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Hyresrätt",
-      "HarAnmaltIntresse": false,
-      "KanAnmalaIntresse": false,
-      "HarBraChans": false,
-      "HarInternko": false,
-      "Internko": false,
-      "Externko": false,
-      "Omraden": [
-        {
-          "Id": 376,
-          "PlatsTyp": 2
-        },
-        {
-          "Id": 8,
-          "PlatsTyp": 1
-        },
-        {
-          "Id": 224,
-          "PlatsTyp": 0
-        }
-      ],
-      "ArInloggad": false,
-      "LiknadeLagenhetStatistik": null
-    },
-    {
-      "AnnonsId": 173356,
-      "Stadsdel": "Ronna",
-      "Gatuadress": "Slåttervägen 2",
-      "Kommun": "Södertälje",
-      "Vaning": 2,
-      "AntalRum": 3,
-      "Yta": 76,
-      "Hyra": 9381,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.590611973275102,
-      "KoordinatLatitud": 59.204836355865325,
-      "Url": "/Lista/Details?aid=173356",
-      "Antal": 1,
-      "Balkong": true,
-      "Hiss": true,
-      "Nyproduktion": false,
-      "Ungdom": false,
-      "Student": false,
-      "Senior": false,
-      "Korttid": false,
-      "Vanlig": true,
-      "Bostadssnabben": false,
-      "Ko": "Bostadskön",
-      "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Hyresrätt",
-      "HarAnmaltIntresse": false,
-      "KanAnmalaIntresse": false,
-      "HarBraChans": false,
-      "HarInternko": false,
-      "Internko": false,
-      "Externko": false,
-      "Omraden": [
-        {
-          "Id": 376,
-          "PlatsTyp": 2
-        },
-        {
-          "Id": 8,
-          "PlatsTyp": 1
-        },
-        {
-          "Id": 224,
-          "PlatsTyp": 0
-        }
-      ],
-      "ArInloggad": false,
-      "LiknadeLagenhetStatistik": null
-    },
-    {
-      "AnnonsId": 173347,
-      "Stadsdel": "Ronna",
-      "Gatuadress": "Klövjevägen  17",
-      "Kommun": "Södertälje",
-      "Vaning": 3,
-      "AntalRum": 3,
-      "Yta": 76,
-      "Hyra": 9381,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.583599115933517,
-      "KoordinatLatitud": 59.20363049292396,
-      "Url": "/Lista/Details?aid=173347",
-      "Antal": 1,
-      "Balkong": true,
-      "Hiss": true,
-      "Nyproduktion": false,
-      "Ungdom": false,
-      "Student": false,
-      "Senior": false,
-      "Korttid": false,
-      "Vanlig": true,
-      "Bostadssnabben": false,
-      "Ko": "Bostadskön",
-      "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Hyresrätt",
-      "HarAnmaltIntresse": false,
-      "KanAnmalaIntresse": false,
-      "HarBraChans": false,
-      "HarInternko": false,
-      "Internko": false,
-      "Externko": false,
-      "Omraden": [
-        {
-          "Id": 376,
-          "PlatsTyp": 2
-        },
-        {
-          "Id": 8,
-          "PlatsTyp": 1
-        },
-        {
-          "Id": 224,
-          "PlatsTyp": 0
-        }
-      ],
-      "ArInloggad": false,
-      "LiknadeLagenhetStatistik": null
-    },
-    {
-      "AnnonsId": 173357,
-      "Stadsdel": "Finnsta",
-      "Gatuadress": "Fjärilsstigen 10",
-      "Kommun": "Upplands-bro",
+      "AnnonsId": 182410,
+      "Stadsdel": "Hagalund",
+      "Gatuadress": "Hagalundsgatan 3",
+      "Kommun": "Solna",
       "Vaning": 1,
-      "AntalRum": 3,
-      "Yta": 78,
-      "Hyra": 9716,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.651725949262904,
-      "KoordinatLatitud": 59.51216056035049,
-      "Url": "/Lista/Details?aid=173357",
+      "AntalRum": 2,
+      "Yta": 59,
+      "Hyra": 5668,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 18.008900397656387,
+      "KoordinatLatitud": 59.3633084865081,
+      "Url": "/Lista/Details?aid=182410",
       "Antal": 1,
       "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": true,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "UngdomKorttid",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 333,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 201,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182416,
+      "Stadsdel": "Geneta",
+      "Gatuadress": "Bollvägen 2",
+      "Kommun": "Södertälje",
+      "Vaning": 0,
+      "AntalRum": 1,
+      "Yta": 15,
+      "Hyra": 3378,
+      "AnnonseradTill": "2021-04-06",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.5973,
+      "KoordinatLatitud": 59.195156,
+      "Url": "/Lista/Details?aid=182416",
+      "Antal": 1,
+      "Balkong": false,
       "Hiss": false,
       "Nyproduktion": false,
       "Ungdom": false,
@@ -600,7 +2169,7 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 535,
+          "Id": 364,
           "PlatsTyp": 2
         },
         {
@@ -608,7 +2177,7 @@
           "PlatsTyp": 1
         },
         {
-          "Id": 248,
+          "Id": 224,
           "PlatsTyp": 0
         }
       ],
@@ -616,23 +2185,1073 @@
       "LiknadeLagenhetStatistik": null
     },
     {
-      "AnnonsId": 172992,
-      "Stadsdel": "Handen",
-      "Gatuadress": "Nynäsvägen 114",
+      "AnnonsId": 182495,
+      "Stadsdel": "Ulriksdal",
+      "Gatuadress": "Bagartorpsringen 16",
+      "Kommun": "Solna",
+      "Vaning": 2,
+      "AntalRum": 3,
+      "Yta": 74,
+      "Hyra": 6321,
+      "AnnonseradTill": "2021-04-09",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.997892704194932,
+      "KoordinatLatitud": 59.378094883245666,
+      "Url": "/Lista/Details?aid=182495",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": true,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "UngdomKorttid",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 404,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 201,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182494,
+      "Stadsdel": "Vega",
+      "Gatuadress": "Hermanstorpsvägen 11",
+      "Kommun": "Haninge",
+      "Vaning": 0,
+      "AntalRum": 1,
+      "Yta": 34,
+      "Hyra": 7690,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.128606718736442,
+      "KoordinatLatitud": 59.178871250787374,
+      "Url": "/Lista/Details?aid=182494",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 431,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182257,
+      "Stadsdel": "Vega",
+      "Gatuadress": "Nordkapsvägen 13",
+      "Kommun": "Haninge",
+      "Vaning": null,
+      "AntalRum": 1,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-03-29",
+      "KoordinatLongitud": 18.1342005729675,
+      "KoordinatLatitud": 59.1858772676998,
+      "Url": "/Lista/Details?aid=182257",
+      "Antal": 5,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 431,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182259,
+      "Stadsdel": "Vega",
+      "Gatuadress": "Nordkapsvägen 11",
+      "Kommun": "Haninge",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-03-29",
+      "KoordinatLongitud": 18.1342005729675,
+      "KoordinatLatitud": 59.1858772676998,
+      "Url": "/Lista/Details?aid=182259",
+      "Antal": 69,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 431,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182261,
+      "Stadsdel": "Vega",
+      "Gatuadress": "Nordkapsvägen 11",
       "Kommun": "Haninge",
       "Vaning": null,
       "AntalRum": 3,
       "Yta": null,
       "Hyra": null,
-      "AnnonseradTill": "2020-09-27",
-      "AnnonseradFran": "2020-09-15",
-      "KoordinatLongitud": 18.1357455253601,
-      "KoordinatLatitud": 59.1603337973898,
-      "Url": "/Lista/Details?aid=172992",
-      "Antal": 2,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-03-29",
+      "KoordinatLongitud": 18.1342005729675,
+      "KoordinatLatitud": 59.1858772676998,
+      "Url": "/Lista/Details?aid=182261",
+      "Antal": 7,
       "Balkong": true,
       "Hiss": true,
       "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 431,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182262,
+      "Stadsdel": "Vega",
+      "Gatuadress": "Nordkapsvägen 13",
+      "Kommun": "Haninge",
+      "Vaning": null,
+      "AntalRum": 4,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-03-29",
+      "KoordinatLongitud": 18.1342005729675,
+      "KoordinatLatitud": 59.1858772676998,
+      "Url": "/Lista/Details?aid=182262",
+      "Antal": 4,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 431,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182230,
+      "Stadsdel": "Tullinge",
+      "Gatuadress": "Kanslivägen 9",
+      "Kommun": "Botkyrka",
+      "Vaning": 0,
+      "AntalRum": 1,
+      "Yta": 32,
+      "Hyra": 6580,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-30",
+      "KoordinatLongitud": 17.914387707941305,
+      "KoordinatLatitud": 59.18736362759097,
+      "Url": "/Lista/Details?aid=182230",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 436,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 21,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182487,
+      "Stadsdel": "Tullinge",
+      "Gatuadress": "Kanslivägen 9",
+      "Kommun": "Botkyrka",
+      "Vaning": 0.5,
+      "AntalRum": 2,
+      "Yta": 57,
+      "Hyra": 8960,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.914387707941305,
+      "KoordinatLatitud": 59.18736362759097,
+      "Url": "/Lista/Details?aid=182487",
+      "Antal": 1,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 436,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 21,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182366,
+      "Stadsdel": "Jakobsberg",
+      "Gatuadress": "Mäldgatan 10",
+      "Kommun": "Järfälla",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.831749,
+      "KoordinatLatitud": 59.416653,
+      "Url": "/Lista/Details?aid=182366",
+      "Antal": 13,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 451,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 92,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182249,
+      "Stadsdel": "Jakobsberg",
+      "Gatuadress": "Mäldgatan 8",
+      "Kommun": "Järfälla",
+      "Vaning": null,
+      "AntalRum": 5,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-03-30",
+      "KoordinatLongitud": 17.831749,
+      "KoordinatLatitud": 59.416653,
+      "Url": "/Lista/Details?aid=182249",
+      "Antal": 4,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 451,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 92,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182368,
+      "Stadsdel": "Jakobsberg",
+      "Gatuadress": "Mäldgatan 10",
+      "Kommun": "Järfälla",
+      "Vaning": null,
+      "AntalRum": 4,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.831749,
+      "KoordinatLatitud": 59.416653,
+      "Url": "/Lista/Details?aid=182368",
+      "Antal": 7,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 451,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 92,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182369,
+      "Stadsdel": "Jakobsberg",
+      "Gatuadress": "Mäldgatan 10",
+      "Kommun": "Järfälla",
+      "Vaning": null,
+      "AntalRum": 5,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-11",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.831749,
+      "KoordinatLatitud": 59.416653,
+      "Url": "/Lista/Details?aid=182369",
+      "Antal": 5,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 451,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 92,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182012,
+      "Stadsdel": "Rönninge",
+      "Gatuadress": "Prästbodavägen  44",
+      "Kommun": "Salem",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-08",
+      "AnnonseradFran": "2021-03-25",
+      "KoordinatLongitud": 17.7731537818909,
+      "KoordinatLatitud": 59.2060082961649,
+      "Url": "/Lista/Details?aid=182012",
+      "Antal": 19,
+      "Balkong": false,
+      "Hiss": false,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 540,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 187,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182013,
+      "Stadsdel": "Rönninge",
+      "Gatuadress": "Prästbodavägen  44",
+      "Kommun": "Salem",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-08",
+      "AnnonseradFran": "2021-03-25",
+      "KoordinatLongitud": 17.7731537818909,
+      "KoordinatLatitud": 59.2060082961649,
+      "Url": "/Lista/Details?aid=182013",
+      "Antal": 23,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 540,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 187,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182400,
+      "Stadsdel": "Rönninge",
+      "Gatuadress": "Prästbodavägen  44",
+      "Kommun": "Salem",
+      "Vaning": null,
+      "AntalRum": 1,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-08",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.7731537818909,
+      "KoordinatLatitud": 59.2060082961649,
+      "Url": "/Lista/Details?aid=182400",
+      "Antal": 5,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 540,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 187,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182461,
+      "Stadsdel": "Rönninge",
+      "Gatuadress": "Prästbodavägen  40",
+      "Kommun": "Salem",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-13",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.77315378189087,
+      "KoordinatLatitud": 59.20600829616485,
+      "Url": "/Lista/Details?aid=182461",
+      "Antal": 19,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 540,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 187,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182036,
+      "Stadsdel": "Märsta Centrum",
+      "Gatuadress": "Pärlgatan 4A",
+      "Kommun": "Sigtuna",
+      "Vaning": null,
+      "AntalRum": 2,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-25",
+      "KoordinatLongitud": 17.85879135131836,
+      "KoordinatLatitud": 59.62158362919046,
+      "Url": "/Lista/Details?aid=182036",
+      "Antal": 5,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 546,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 189,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182040,
+      "Stadsdel": "Märsta Centrum",
+      "Gatuadress": "Pärlgatan 4A",
+      "Kommun": "Sigtuna",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-25",
+      "KoordinatLongitud": 17.85879135131836,
+      "KoordinatLatitud": 59.62158362919046,
+      "Url": "/Lista/Details?aid=182040",
+      "Antal": 3,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 546,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 189,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182041,
+      "Stadsdel": "Märsta Centrum",
+      "Gatuadress": "Pärlgatan 4A",
+      "Kommun": "Sigtuna",
+      "Vaning": null,
+      "AntalRum": 4,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-25",
+      "KoordinatLongitud": 17.85879135131836,
+      "KoordinatLatitud": 59.62158362919046,
+      "Url": "/Lista/Details?aid=182041",
+      "Antal": 10,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 546,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 189,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182497,
+      "Stadsdel": "Hallonbergen",
+      "Gatuadress": "Skolgången 4",
+      "Kommun": "Sundbyberg",
+      "Vaning": 1,
+      "AntalRum": 1,
+      "Yta": 26,
+      "Hyra": 5836,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 17.96516668015683,
+      "KoordinatLatitud": 59.37542603075327,
+      "Url": "/Lista/Details?aid=182497",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": true,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": false,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Studentlägenhet",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 572,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 212,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182486,
+      "Stadsdel": "Täby",
+      "Gatuadress": "Tränsgatan  3",
+      "Kommun": "Täby",
+      "Vaning": 4,
+      "AntalRum": 2,
+      "Yta": 59,
+      "Hyra": 11508,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.089364767074585,
+      "KoordinatLatitud": 59.44426242016842,
+      "Url": "/Lista/Details?aid=182486",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 665,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 243,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182281,
+      "Stadsdel": "Handen",
+      "Gatuadress": "Örnens väg 5",
+      "Kommun": "Haninge",
+      "Vaning": 4,
+      "AntalRum": 4,
+      "Yta": 91,
+      "Hyra": 15249,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 18.135724067688,
+      "KoordinatLatitud": 59.1603282973867,
+      "Url": "/Lista/Details?aid=182281",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": false,
       "Ungdom": false,
       "Student": false,
       "Senior": false,
@@ -666,32 +3285,32 @@
       "LiknadeLagenhetStatistik": null
     },
     {
-      "AnnonsId": 173326,
-      "Stadsdel": "Karlhov",
-      "Gatuadress": "Karlhovsvägen 13",
-      "Kommun": "Södertälje",
-      "Vaning": 1,
-      "AntalRum": 3,
-      "Yta": 88,
-      "Hyra": 7618,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.60916429808826,
-      "KoordinatLatitud": 59.20739976066644,
-      "Url": "/Lista/Details?aid=173326",
+      "AnnonsId": 182311,
+      "Stadsdel": "Handen",
+      "Gatuadress": "Idunvägen 11",
+      "Kommun": "Haninge",
+      "Vaning": 2.5,
+      "AntalRum": 4,
+      "Yta": 94,
+      "Hyra": 12252,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 18.146549307215672,
+      "KoordinatLatitud": 59.164926132334735,
+      "Url": "/Lista/Details?aid=182311",
       "Antal": 1,
       "Balkong": true,
-      "Hiss": true,
+      "Hiss": false,
       "Nyproduktion": false,
       "Ungdom": false,
       "Student": false,
       "Senior": false,
-      "Korttid": true,
-      "Vanlig": false,
+      "Korttid": false,
+      "Vanlig": true,
       "Bostadssnabben": false,
       "Ko": "Bostadskön",
       "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Korttidskontrakt",
+      "Lagenhetstyp": "Hyresrätt",
       "HarAnmaltIntresse": false,
       "KanAnmalaIntresse": false,
       "HarBraChans": false,
@@ -700,7 +3319,157 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 923,
+          "Id": 761,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182490,
+      "Stadsdel": "Handen",
+      "Gatuadress": "Vikingavägen 31",
+      "Kommun": "Haninge",
+      "Vaning": 1.5,
+      "AntalRum": 2,
+      "Yta": 62,
+      "Hyra": 8709,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.14421185139564,
+      "KoordinatLatitud": 59.16732107225018,
+      "Url": "/Lista/Details?aid=182490",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 761,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182492,
+      "Stadsdel": "Handen",
+      "Gatuadress": "Midgårdsvägen 15",
+      "Kommun": "Haninge",
+      "Vaning": 1.5,
+      "AntalRum": 2,
+      "Yta": 53,
+      "Hyra": 7526,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-02",
+      "KoordinatLongitud": 18.143963764751728,
+      "KoordinatLatitud": 59.169579596639856,
+      "Url": "/Lista/Details?aid=182492",
+      "Antal": 1,
+      "Balkong": true,
+      "Hiss": false,
+      "Nyproduktion": false,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 761,
+          "PlatsTyp": 2
+        },
+        {
+          "Id": 8,
+          "PlatsTyp": 1
+        },
+        {
+          "Id": 68,
+          "PlatsTyp": 0
+        }
+      ],
+      "ArInloggad": false,
+      "LiknadeLagenhetStatistik": null
+    },
+    {
+      "AnnonsId": 182308,
+      "Stadsdel": "Södertälje Centrum",
+      "Gatuadress": "Köpmangatan 4C",
+      "Kommun": "Södertälje",
+      "Vaning": null,
+      "AntalRum": 3,
+      "Yta": null,
+      "Hyra": null,
+      "AnnonseradTill": "2021-04-14",
+      "AnnonseradFran": "2021-03-31",
+      "KoordinatLongitud": 17.6286041736603,
+      "KoordinatLatitud": 59.1964717112969,
+      "Url": "/Lista/Details?aid=182308",
+      "Antal": 4,
+      "Balkong": true,
+      "Hiss": true,
+      "Nyproduktion": true,
+      "Ungdom": false,
+      "Student": false,
+      "Senior": false,
+      "Korttid": false,
+      "Vanlig": true,
+      "Bostadssnabben": false,
+      "Ko": "Bostadskön",
+      "KoNamn": "Bostadskön",
+      "Lagenhetstyp": "Hyresrätt",
+      "HarAnmaltIntresse": false,
+      "KanAnmalaIntresse": false,
+      "HarBraChans": false,
+      "HarInternko": false,
+      "Internko": false,
+      "Externko": false,
+      "Omraden": [
+        {
+          "Id": 849,
           "PlatsTyp": 2
         },
         {
@@ -716,19 +3485,19 @@
       "LiknadeLagenhetStatistik": null
     },
     {
-      "AnnonsId": 173321,
-      "Stadsdel": "Botkyrka",
-      "Gatuadress": "Forvägen 39",
-      "Kommun": "Botkyrka",
-      "Vaning": 0,
-      "AntalRum": 3,
-      "Yta": 80,
-      "Hyra": 9150,
-      "AnnonseradTill": "2020-09-23",
-      "AnnonseradFran": "2020-09-22",
-      "KoordinatLongitud": 17.855705176144767,
-      "KoordinatLatitud": 59.249452265603374,
-      "Url": "/Lista/Details?aid=173321",
+      "AnnonsId": 182464,
+      "Stadsdel": "Mariekälla",
+      "Gatuadress": "Liljevalchsgatan  14",
+      "Kommun": "Södertälje",
+      "Vaning": 6,
+      "AntalRum": 2,
+      "Yta": 55,
+      "Hyra": 6811,
+      "AnnonseradTill": "2021-04-07",
+      "AnnonseradFran": "2021-04-01",
+      "KoordinatLongitud": 17.619173526763916,
+      "KoordinatLatitud": 59.185948714264406,
+      "Url": "/Lista/Details?aid=182464",
       "Antal": 1,
       "Balkong": true,
       "Hiss": true,
@@ -750,7 +3519,7 @@
       "Externko": false,
       "Omraden": [
         {
-          "Id": 939,
+          "Id": 1038,
           "PlatsTyp": 2
         },
         {
@@ -758,7 +3527,7 @@
           "PlatsTyp": 1
         },
         {
-          "Id": 21,
+          "Id": 224,
           "PlatsTyp": 0
         }
       ],

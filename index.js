@@ -1,67 +1,88 @@
 const rp = require('request-promise');
-const cherio = require('cheerio');
-var Table = require('cli-table');
+var cron = require('node-cron');
+//var Table = require('cli-table');
 var fs = require('fs');
+// replace the value below with the Telegram token you receive from @BotFather
+const token = '1750061258:AAHphqzXsZWjoSZrREN3wCrDxux6bErdC6g';
+const chatId="1723877882";
+let message='';
+
+let rawdata = fs.readFileSync('current.json');
+let storedApartments = JSON.parse(rawdata).apartments;
+var _ = require('underscore');
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
 let apartments = []
+
 const options = {
     url: `https://bostad.stockholm.se/Lista/AllaAnnonser`,
     json: true
 }
-var table = new Table ({
+/* var table = new Table ({
     head:['id','address','expirydate','link'],
     colWidths:[10,50,15,60]
-})
+}) */
+cron.schedule('0 */15 * * * *', () => {
+    getNewApartments()
+  });
 
-rp(options).then((data)=>{
-    apartments= data;
+function getNewApartments(){
+ rp(options).then((data)=>{
+     apartments= data;
     filterApartment();
+    let newestAparmentList=[];
+    storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
+    apartmentsIds=apartments.map(element=>element.AnnonsId)
+    newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
+    console.log(apartmentsIds,storedApartmentsIds)
+    if(!_.isEmpty(newApartmentIds)){
+        newApartmentIds.forEach((id)=>{
+            newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
+        })
+       let links = newestAparmentList.map(element=>`https://bostad.stockholm.se`+element.Url)
+       console.log(links.toString())
+        message = `Hello Ekow, there are new apartments, ${links.toString()}`
+        const sendMessage={
+            url:`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`
+        }
+        rp(sendMessage)
+        fs.writeFileSync('current.json',JSON.stringify({apartments:newestAparmentList.concat(storedApartments)},0,2))
+        
+    }
+
+
    
 }).catch((err)=>{
     console.log(err);
-})
+})   
+}
 
+
+
+// rp(sendMessage)
 function filterApartment() {
     var filtered = []
     var ids= [];
     var antal =0;
     var elementCount=0
-    apartments.forEach(element => {
-        if (element.AntalRum===3)
-    {
-filtered.push(element)
-    }
-   
-    });
-    //  filtered.forEach((element)=>{
-    //   if(element.Antal>1){
-    //       elementCount++
-    //       antal=antal+element.Antal
-
-    //    }
-    //  })
-    filtered.forEach((element,i)=>{
+ 
+    apartments.forEach((element,i)=>{
      if(element.Senior || element.Student || element.Korttid ||element.Ungdom){
-         filtered.splice(i,1)
+        apartments.splice(i,1)
        }
      }) 
-
-
-     filtered.forEach((element,i)=>{
+     apartments.forEach((element,i)=>{
          if(!compareDates(element.AnnonseradTill)){
-            filtered.splice(i,1)
+            apartments.splice(i,1)
 
          }
      })
-     filtered.forEach((element)=>{
-         table.push([element.AnnonsId,element.Gatuadress+ ' '+element.Stadsdel + ' '+element.Kommun,element.AnnonseradTill, 'https://bostad.stockholm.se'+element.Url]);
-       
-         fs.writeFileSync('current.json',JSON.stringify({apartments:filtered},0,2))
+   //  apartments.forEach((element)=>{
+     //    table.push([element.AnnonsId,element.Gatuadress+ ' '+element.Stadsdel + ' '+element.Kommun,element.AnnonseradTill, 'https://bostad.stockholm.se'+element.Url]);
 
-     });
-
+   //  });
+   //  apartments.push(tester)
      
-    console.log(table)
+   // console.log(table.toString())
 
 }
 
@@ -69,7 +90,7 @@ function compareDates(expireDate){
     var expired = false;
     var today= new Date();
     var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); 
     var yyyy = today.getFullYear();
     today = yyyy +'-' + mm + '-' + dd  ;
     const todayParsed=Date.parse(today)
@@ -77,6 +98,5 @@ function compareDates(expireDate){
     
     notExpired = expireDateParsed>todayParsed
     
-    console.log(today)
     return notExpired
 }
