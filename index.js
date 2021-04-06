@@ -32,13 +32,11 @@ const options = {
     storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
     apartmentsIds=apartments.map(element=>element.AnnonsId)
     newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
-    console.log(apartmentsIds,storedApartmentsIds)
     if(!_.isEmpty(newApartmentIds)){
         newApartmentIds.forEach((id)=>{
             newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
         })
        let links = newestAparmentList.map(element=>`https://bostad.stockholm.se`+element.Url)
-       console.log(links.toString())
         message = `Hello Ekow, there are new apartments, ${links.toString()}`
         const sendMessage={
             url:`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`
