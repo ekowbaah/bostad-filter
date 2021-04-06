@@ -23,7 +23,6 @@ const options = {
 }) */
 cron.schedule('*/15 * * * *', () => {
     getNewApartments()
-    console.log('did i run')
   });
 
 function getNewApartments(){
@@ -34,7 +33,6 @@ function getNewApartments(){
     storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
     apartmentsIds=apartments.map(element=>element.AnnonsId)
     newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
-    console.log(apartmentsIds,storedApartmentsIds)
     if(!_.isEmpty(newApartmentIds)){
         newApartmentIds.forEach((id)=>{
             newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])

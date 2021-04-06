@@ -1,58 +1,6 @@
 {
   "apartments": [
-    {
-      "AnnonsId": 12345,
-      "Stadsdel": "Hökarängen",
-      "Gatuadress": "Saltvägen 11",
-      "Kommun": "Stockholm",
-      "Vaning": 2,
-      "AntalRum": 2,
-      "Yta": 38,
-      "Hyra": 8777,
-      "AnnonseradTill": "2021-04-06",
-      "AnnonseradFran": "2021-04-01",
-      "KoordinatLongitud": 18.086307048797607,
-      "KoordinatLatitud": 59.25438627155748,
-      "Url": "/Lista/Details?aid=12345",
-      "Antal": 1,
-      "Balkong": true,
-      "Hiss": true,
-      "Nyproduktion": false,
-      "Ungdom": false,
-      "Student": false,
-      "Senior": false,
-      "Korttid": false,
-      "Vanlig": true,
-      "Bostadssnabben": false,
-      "Ko": "Bostadskön",
-      "KoNamn": "Bostadskön",
-      "Lagenhetstyp": "Hyresrätt",
-      "HarAnmaltIntresse": false,
-      "KanAnmalaIntresse": false,
-      "HarBraChans": false,
-      "HarInternko": false,
-      "Internko": false,
-      "Externko": false,
-      "Omraden": [
-        {
-          "Id": 44,
-          "PlatsTyp": 2
-        },
-        {
-          "Id": 4,
-          "PlatsTyp": 1
-        },
-        {
-          "Id": 206,
-          "PlatsTyp": 0
-        }
-      ],
-      "ArInloggad": false,
-      "LiknadeLagenhetStatistik": {
-        "KotidFordelningQ1": 11,
-        "KotidFordelningQ3": 14
-      }
-    },
+  
     {
       "AnnonsId": 182442,
       "Stadsdel": "Enskede Gård",
