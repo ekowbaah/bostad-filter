@@ -21,7 +21,7 @@ const options = {
     head:['id','address','expirydate','link'],
     colWidths:[10,50,15,60]
 }) */
-cron.schedule('*/15 * * * *', () => {
+cron.schedule('*/1 * * * *', () => {
     getNewApartments()
   });
 
