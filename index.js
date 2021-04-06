@@ -7,8 +7,15 @@ const token = '1750061258:AAHphqzXsZWjoSZrREN3wCrDxux6bErdC6g';
 const chatId="1723877882";
 let message='';
 
-let rawdata = fs.readFileSync('current.json');
-let storedApartments = JSON.parse(rawdata).apartments;
+var getStoredApartments = {
+    url: 'https://api.jsonbin.io/v3/b/606c74606397691864749a75/1',
+    headers: {
+        'X-Master-Key': '$2b$10$iSeXo4/on2EgNGtpDOZfBewRE30J/x4aqzNMhpGMvdM59YLn7tBWG'
+    },
+    json: true // Automatically parses the JSON string in the response
+};
+
+let storedApartments = []
 var _ = require('underscore');
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
 let apartments = []
@@ -21,43 +28,68 @@ const options = {
     head:['id','address','expirydate','link'],
     colWidths:[10,50,15,60]
 }) */
-cron.schedule('*/1 * * * *', () => {
-    getNewApartments()
-  });
+
+
 
 function getNewApartments(){
- rp(options).then((data)=>{
-     apartments= data;
-    filterApartment();
-    let newestAparmentList=[];
-    storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
-    apartmentsIds=apartments.map(element=>element.AnnonsId)
-    newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
-    if(!_.isEmpty(newApartmentIds)){
-        console.log(newApartmentIds)
-        newApartmentIds.forEach((id)=>{
-            newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
-        })
-       let links = newestAparmentList.map(element=>`https://bostad.stockholm.se`+element.Url)
-        message = `Hello Ekow, there are new apartments, ${links.toString()}`
-        const sendMessage={
-            url:`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`
-        }
-        rp(sendMessage)
-        fs.writeFileSync('current.json',JSON.stringify({apartments:newestAparmentList.concat(storedApartments)},0,2))
-        
+    rp(getStoredApartments)
+    .then((data)=>{
+        storedApartments=data.record.apartments
+        rp(options).then((data)=>{
+            apartments= data;
+           filterApartment();
+           let newestAparmentList=[];
+           storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
+           apartmentsIds=apartments.map(element=>element.AnnonsId)
+           console.log(storedApartmentsIds,apartmentsIds)
+           newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
+           if(!_.isEmpty(newApartmentIds)){
+               newApartmentIds.forEach((id)=>{
+                   newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
+               })
+              let links = newestAparmentList.map(element=>`https://bostad.stockholm.se`+element.Url)
+               message = `Hello Ekow, there are new apartments, ${links.join(', ')}`
+               const sendMessage={
+                   url:`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`
+               }
+               rp(sendMessage)
+               var updatedStoredApartments = {
+                   method: 'PUT',
+                   url: 'https://api.jsonbin.io/v3/b/606c74606397691864749a75',
+                   headers: {
+                       'X-Master-Key': '$2b$10$iSeXo4/on2EgNGtpDOZfBewRE30J/x4aqzNMhpGMvdM59YLn7tBWG',
+                       "Content-Type": "application/json"
+                   },
+                   body: {
+                       apartments:newestAparmentList.concat(storedApartments)
+                   },
+                   json: true
+                 
+               };
+               rp(updatedStoredApartments)
+           .then(function (parsedBody) {
+               // POST succeeded...
+           })
+           .catch(function (err) {
+               // POST failed...
+           });
+             
+               
+           }
+       
+       
+          
+       }).catch((err)=>{
+           console.log(err);
+       })  
     }
-
-
-   
-}).catch((err)=>{
-    console.log(err);
-})   
+    )
+    .catch(function (err) {
+       console.log(err, 'could not get stored apartments')
+    });
+  
 }
 
-
-
-// rp(sendMessage)
 function filterApartment() {
     var filtered = []
     var ids= [];
@@ -99,3 +131,5 @@ function compareDates(expireDate){
     
     return notExpired
 }
+
+getNewApartments()
