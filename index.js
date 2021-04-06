@@ -21,10 +21,12 @@ const options = {
     head:['id','address','expirydate','link'],
     colWidths:[10,50,15,60]
 }) */
+cron.schedule('*/15 * * * *', () => {
+    getNewApartments()
+    console.log('did i run')
+  });
 
-   
-
-
+function getNewApartments(){
  rp(options).then((data)=>{
      apartments= data;
     filterApartment();
@@ -32,6 +34,7 @@ const options = {
     storedApartmentsIds=storedApartments.map(element=>element.AnnonsId)
     apartmentsIds=apartments.map(element=>element.AnnonsId)
     newApartmentIds=_.difference(apartmentsIds,storedApartmentsIds)
+    console.log(apartmentsIds,storedApartmentsIds)
     if(!_.isEmpty(newApartmentIds)){
         newApartmentIds.forEach((id)=>{
             newestAparmentList.push(apartments.filter(apartment=>apartment.AnnonsId==id)[0])
@@ -45,12 +48,13 @@ const options = {
         fs.writeFileSync('current.json',JSON.stringify({apartments:newestAparmentList.concat(storedApartments)},0,2))
         
     }
-console.log('yes i run every 15 mins')
+
 
    
 }).catch((err)=>{
     console.log(err);
 })   
+}
 
 
 
