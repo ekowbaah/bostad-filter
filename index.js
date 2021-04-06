@@ -132,4 +132,6 @@ function compareDates(expireDate){
     return notExpired
 }
 
-getNewApartments()
+cron.schedule('*/1 * * * *', () => {
+    getNewApartments()
+  });
