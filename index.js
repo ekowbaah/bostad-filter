@@ -21,11 +21,10 @@ const options = {
     head:['id','address','expirydate','link'],
     colWidths:[10,50,15,60]
 }) */
-cron.schedule('0 */15 * * * *', () => {
-    getNewApartments()
-  });
 
-function getNewApartments(){
+   
+
+
  rp(options).then((data)=>{
      apartments= data;
     filterApartment();
@@ -54,7 +53,6 @@ function getNewApartments(){
 }).catch((err)=>{
     console.log(err);
 })   
-}
 
 
 
