@@ -32,6 +32,7 @@ const options = {
 
 
 function getNewApartments(){
+    console.log('i run')
     rp(getStoredApartments)
     .then((data)=>{
         storedApartments=data.record.apartments
